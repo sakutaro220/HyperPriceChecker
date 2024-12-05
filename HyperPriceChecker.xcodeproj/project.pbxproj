@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		30A1A0642D01B982002F029D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A1A04A2D01B97E002F029D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A1A0512D01B97E002F029D;
+			remoteInfo = HyperPriceChecker;
+		};
+		30A1A06E2D01B982002F029D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A1A04A2D01B97E002F029D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A1A0512D01B97E002F029D;
+			remoteInfo = HyperPriceChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30A1A0522D01B97E002F029D /* HyperPriceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperPriceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A1A0632D01B982002F029D /* HyperPriceCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperPriceCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A1A06D2D01B982002F029D /* HyperPriceCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperPriceCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		303CD3332D02015700417606 /* Exceptions for "HyperPriceChecker" folder in "HyperPriceChecker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 30A1A0512D01B97E002F029D /* HyperPriceChecker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30A1A0542D01B97E002F029D /* HyperPriceChecker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				303CD3332D02015700417606 /* Exceptions for "HyperPriceChecker" folder in "HyperPriceChecker" target */,
+			);
+			path = HyperPriceChecker;
+			sourceTree = "<group>";
+		};
+		30A1A0662D01B982002F029D /* HyperPriceCheckerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HyperPriceCheckerTests;
+			sourceTree = "<group>";
+		};
+		30A1A0702D01B982002F029D /* HyperPriceCheckerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HyperPriceCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A1A04F2D01B97E002F029D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1A0602D01B982002F029D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1A06A2D01B982002F029D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A1A0492D01B97E002F029D = {
+			isa = PBXGroup;
+			children = (
+				30A1A0542D01B97E002F029D /* HyperPriceChecker */,
+				30A1A0662D01B982002F029D /* HyperPriceCheckerTests */,
+				30A1A0702D01B982002F029D /* HyperPriceCheckerUITests */,
+				30A1A0532D01B97E002F029D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A1A0532D01B97E002F029D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A1A0522D01B97E002F029D /* HyperPriceChecker.app */,
+				30A1A0632D01B982002F029D /* HyperPriceCheckerTests.xctest */,
+				30A1A06D2D01B982002F029D /* HyperPriceCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A1A0512D01B97E002F029D /* HyperPriceChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A1A0772D01B982002F029D /* Build configuration list for PBXNativeTarget "HyperPriceChecker" */;
+			buildPhases = (
+				30A1A04E2D01B97E002F029D /* Sources */,
+				30A1A04F2D01B97E002F029D /* Frameworks */,
+				30A1A0502D01B97E002F029D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30A1A0542D01B97E002F029D /* HyperPriceChecker */,
+			);
+			name = HyperPriceChecker;
+			packageProductDependencies = (
+			);
+			productName = HyperPriceChecker;
+			productReference = 30A1A0522D01B97E002F029D /* HyperPriceChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A1A0622D01B982002F029D /* HyperPriceCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A1A07A2D01B982002F029D /* Build configuration list for PBXNativeTarget "HyperPriceCheckerTests" */;
+			buildPhases = (
+				30A1A05F2D01B982002F029D /* Sources */,
+				30A1A0602D01B982002F029D /* Frameworks */,
+				30A1A0612D01B982002F029D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A1A0652D01B982002F029D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30A1A0662D01B982002F029D /* HyperPriceCheckerTests */,
+			);
+			name = HyperPriceCheckerTests;
+			packageProductDependencies = (
+			);
+			productName = HyperPriceCheckerTests;
+			productReference = 30A1A0632D01B982002F029D /* HyperPriceCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30A1A06C2D01B982002F029D /* HyperPriceCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A1A07D2D01B982002F029D /* Build configuration list for PBXNativeTarget "HyperPriceCheckerUITests" */;
+			buildPhases = (
+				30A1A0692D01B982002F029D /* Sources */,
+				30A1A06A2D01B982002F029D /* Frameworks */,
+				30A1A06B2D01B982002F029D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A1A06F2D01B982002F029D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30A1A0702D01B982002F029D /* HyperPriceCheckerUITests */,
+			);
+			name = HyperPriceCheckerUITests;
+			packageProductDependencies = (
+			);
+			productName = HyperPriceCheckerUITests;
+			productReference = 30A1A06D2D01B982002F029D /* HyperPriceCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A1A04A2D01B97E002F029D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					30A1A0512D01B97E002F029D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					30A1A0622D01B982002F029D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 30A1A0512D01B97E002F029D;
+					};
+					30A1A06C2D01B982002F029D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 30A1A0512D01B97E002F029D;
+					};
+				};
+			};
+			buildConfigurationList = 30A1A04D2D01B97E002F029D /* Build configuration list for PBXProject "HyperPriceChecker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A1A0492D01B97E002F029D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 30A1A0532D01B97E002F029D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30A1A0512D01B97E002F029D /* HyperPriceChecker */,
+				30A1A0622D01B982002F029D /* HyperPriceCheckerTests */,
+				30A1A06C2D01B982002F029D /* HyperPriceCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A1A0502D01B97E002F029D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1A0612D01B982002F029D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1A06B2D01B982002F029D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A1A04E2D01B97E002F029D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1A05F2D01B982002F029D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1A0692D01B982002F029D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30A1A0652D01B982002F029D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A1A0512D01B97E002F029D /* HyperPriceChecker */;
+			targetProxy = 30A1A0642D01B982002F029D /* PBXContainerItemProxy */;
+		};
+		30A1A06F2D01B982002F029D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A1A0512D01B97E002F029D /* HyperPriceChecker */;
+			targetProxy = 30A1A06E2D01B982002F029D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30A1A0752D01B982002F029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30A1A0762D01B982002F029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		30A1A0782D01B982002F029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperPriceChecker/HyperPriceChecker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyperPriceChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4UG3Q73U43;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperPriceChecker/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.sakutech.HyperPriceChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		30A1A0792D01B982002F029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperPriceChecker/HyperPriceChecker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyperPriceChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4UG3Q73U43;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperPriceChecker/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.sakutech.HyperPriceChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30A1A07B2D01B982002F029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.sakutech.HyperPriceCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperPriceChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyperPriceChecker";
+			};
+			name = Debug;
+		};
+		30A1A07C2D01B982002F029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4UG3Q73U43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.sakutech.HyperPriceCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperPriceChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyperPriceChecker";
+			};
+			name = Release;
+		};
+		30A1A07E2D01B982002F029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UG3Q73U43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.sakutech.HyperPriceCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HyperPriceChecker;
+			};
+			name = Debug;
+		};
+		30A1A07F2D01B982002F029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UG3Q73U43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.sakutech.HyperPriceCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HyperPriceChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A1A04D2D01B97E002F029D /* Build configuration list for PBXProject "HyperPriceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1A0752D01B982002F029D /* Debug */,
+				30A1A0762D01B982002F029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A1A0772D01B982002F029D /* Build configuration list for PBXNativeTarget "HyperPriceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1A0782D01B982002F029D /* Debug */,
+				30A1A0792D01B982002F029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A1A07A2D01B982002F029D /* Build configuration list for PBXNativeTarget "HyperPriceCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1A07B2D01B982002F029D /* Debug */,
+				30A1A07C2D01B982002F029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A1A07D2D01B982002F029D /* Build configuration list for PBXNativeTarget "HyperPriceCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1A07E2D01B982002F029D /* Debug */,
+				30A1A07F2D01B982002F029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30A1A04A2D01B97E002F029D /* Project object */;
+}
